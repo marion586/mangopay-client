@@ -2,6 +2,9 @@
   "name": "Client",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+  "node": ">=14.x"
+},
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -36,8 +39,8 @@
     "jest": "^26.6.3",
     "pug": "^3.0.3",
     "pug-plain-loader": "^1.1.0",
+    "vue-jest": "^3.0.4",
     "stylus": "^0.54.8",
-    "stylus-loader": "^4.3.0",
-    "vue-jest": "^3.0.4"
+    "stylus-loader": "^4.3.0"
   }
 }
