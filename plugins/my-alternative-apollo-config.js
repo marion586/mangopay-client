@@ -2,7 +2,7 @@
 
 export default context => {
   return {
-    httpEndpoint: "http://localhost:4000/graphql-alt",
+    httpEndpoint: "http://localhost:3005/graphql",
 
     /*
      * For permanent authentication provide `getAuth` function.

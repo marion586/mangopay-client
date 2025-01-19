@@ -69,7 +69,7 @@ export default {
       // you can setup multiple clients with arbitrary names
       alternativeClient: {
         // required
-        httpEndpoint: "http://localhost:4000",
+        httpEndpoint: "http://localhost:3005",
 
         // override HTTP endpoint in browser only
         browserHttpEndpoint: "/graphql",
@@ -81,7 +81,7 @@ export default {
 
         // You can use `wss` for secure connection (recommended in production)
         // Use `null` to disable subscriptions
-        wsEndpoint: "ws://localhost:4000",
+        wsEndpoint: "ws://localhost:3005",
 
         // LocalStorage token
         tokenName: "apollo-token",
